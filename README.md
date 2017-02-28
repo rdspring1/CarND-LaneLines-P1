@@ -60,7 +60,7 @@ Improvements for Challenge Video:
 
 ###2. Identify potential shortcomings with your current pipeline
 
-In the challenge video, the left lane line does not follow the yellow line exactly. During the section of the video where the road color changes from black to white, the yellow line is difficult to see, so my model relies on the previous lane line. The lane line drifts a bit towards the right.
+In the challenge video, the left lane line does not follow the yellow line drifts a bit towards the right. During the section of the video where the road color changes from black to white, the yellow line is difficult to see, so my model relies on the previous lane line. A solution is to use a different color space where white and yellow do not appear similarly such that the edge detector can find the lane line more easily.
 
 ![alt text][challenge1_original]
 ![alt text][challenge1_highlight]
@@ -68,5 +68,6 @@ In the challenge video, the left lane line does not follow the yellow line exact
 ###3. Suggest possible improvements to your pipeline
 
 1) Improve the line detection of the left yellow line in the challenge video
+
 2) The lane line should follow the curve of the road instead of being two parallel lines
 
