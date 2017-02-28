@@ -10,8 +10,8 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[challenge1_original]: ./examples/challenge1_original.jpg "Original Image"
-[challenge1_highlight]: ./examples/challenge1_highlight.jpg "Left lane line drifts toward center"
+[challenge1_original]: ./challenge1_original.png "Original Image"
+[challenge1_highlight]: ./challenge1_highlight.jpg "Left lane line drifts toward center"
 
 ---
 
